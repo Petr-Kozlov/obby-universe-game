@@ -7,6 +7,8 @@
     <title>Rainbow-Obby</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+
+    <script src="https://www.unpkg.com/@microsoft/signalr@8.0.0/dist/browser/signalr.min.js"></script>
   </head>
   <body class="dark">
     <div id="unity-container" class="unity-desktop">
@@ -25,11 +27,11 @@
     <script>
       const hideFullScreenButton = "";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/9853637125e801e9aae48e78dbbdcfca.loader.js";
+      const loaderUrl = buildUrl + "/obby-universe-game.loader.js";
       const config = {
-        dataUrl: buildUrl + "/677a00b7002c4f0b97d3553940a0132d.data.unityweb",
-        frameworkUrl: buildUrl + "/c96143fd423e89ed5b045d4873dafb09.framework.js.unityweb",
-        codeUrl: buildUrl + "/754337c726641998dfc1774926871d08.wasm.unityweb",
+        dataUrl: buildUrl + "/obby-universe-game.data.unityweb",
+        frameworkUrl: buildUrl + "/obby-universe-game.framework.js.unityweb",
+        codeUrl: buildUrl + "/obby-universe-game.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Rainbow-Obby",
